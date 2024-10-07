@@ -1,0 +1,23 @@
+.about-banner {
+  background-image: url(../../assets/images/pattern-bg.png);
+  /* background-repeat: repeat;
+  background-position: center;
+  background-size: cover; */
+  position: relative;
+}
+
+.about-banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Set width to cover the banner */
+  height: 100%; /* Set height to cover the banner */
+  background: rgba(158, 255, 158, 0.26);
+  z-index: 1; /* Make sure the overlay is above the background */
+}
+
+.about-banner > * {
+  position: relative;
+  z-index: 2; /* Ensure content is above the overlay */
+}

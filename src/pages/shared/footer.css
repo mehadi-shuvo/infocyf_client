@@ -1,0 +1,23 @@
+.footer-bg {
+  background-image: url(../../assets/images/pattern-02.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.footer-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Set width to cover the banner */
+  height: 100%; /* Set height to cover the banner */
+  background: hwb(120 62% 0% / 0.5);
+  z-index: 1; /* Make sure the overlay is above the background */
+}
+
+.footer-bg > * {
+  position: relative;
+  z-index: 2; /* Ensure content is above the overlay */
+}

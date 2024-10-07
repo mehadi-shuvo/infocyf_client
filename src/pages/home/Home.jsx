@@ -44,7 +44,7 @@ const Home = () => {
         </div>
       </div>
       {/* Call to action section */}
-      <div className="bg-green-600 w-4/5 mx-auto px-12 py-7 relative -mt-[70px] z-50 shadow-2xl">
+      <div className="bg-green-600 w-4/5 mx-auto px-12 py-7 relative -mt-[70px] z-30 shadow-2xl">
         <div className="flex justify-between items-center ">
           <h4 className="text-3xl text-white font-semibold">
             <span className="font-bold">Infocyph:</span> The most powerful
@@ -105,52 +105,6 @@ const Home = () => {
               Vero quod conseqt quibusdam, enim expedita sed quia nesciunt
               incidunt accusamus necessitatibus
             </p>
-          </div>
-        </div>
-      </div>
-
-      {/* Mission and Motivation */}
-      <div className="w-4/5 mx-auto my-20">
-        <div>
-          <div className="flex gap-2">
-            <div className="flex-1 home-mission-left">
-              <div className="z-30 mt-10">
-                <h1 className="text-3xl font-semibold primary_black capitalize">
-                  Infocyph mission that empowers you...
-                </h1>
-                <p className="secondary_black my-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quaerat amet voluptate fugiat inventore dicta magni tenetur
-                  debitis! Officiis voluptate corrupti quisquam sint nam!
-                </p>
-                <Link to={"#"}>
-                  <span className="uppercase text-xs text-white bg-green-600 font-medium inline-block cursor-pointer tracking-wider py-3 px-5 mt-5">
-                    Read more
-                  </span>
-                </Link>
-              </div>
-            </div>
-            <div className="home-mission flex-none"></div>
-          </div>
-          <div className="flex gap-2">
-            <div className="home-motivation flex-none"></div>
-            <div className="flex-1 home-motivation-left">
-              <div className="mt-10">
-                <h1 className="text-3xl font-semibold primary_black capitalize">
-                  Infocyph Motivation that empowers you...
-                </h1>
-                <p className="secondary_black my-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quaerat amet voluptate fugiat inventore dicta magni tenetur
-                  debitis! Officiis voluptate corrupti quisquam sint nam!
-                </p>
-                <Link to={"#"}>
-                  <span className="uppercase text-xs text-white bg-green-600 font-medium inline-block cursor-pointer tracking-wider py-3 px-5 mt-5">
-                    Read more
-                  </span>
-                </Link>
-              </div>
-            </div>
           </div>
         </div>
       </div>
