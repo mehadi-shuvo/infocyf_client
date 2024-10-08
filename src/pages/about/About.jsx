@@ -62,7 +62,7 @@ const About = () => {
   };
   return (
     <div>
-      <div className="about-banner py-20">
+      <div className="page-banner py-20">
         <div className="w-4/5 mx-auto">
           <h3 className="text-4xl primary_black uppercase font-bold pt-12">
             About <span className="brand-text">Infocyf</span>

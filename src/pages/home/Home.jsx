@@ -64,7 +64,7 @@ const Home = () => {
         </div>
       </div>
       {/* about us */}
-      <div className="w-4/5 mx-auto grid grid-cols-2 gap-5 mt-20">
+      <div className="w-4/5 mx-auto grid grid-cols-2 gap-5 my-20">
         <Slider {...settings}>
           <div className="image-container">
             <img src={about1} alt="" className="image w-full" />
@@ -86,12 +86,11 @@ const Home = () => {
               Who we are and what we do?
             </p>
             <h3 className="text-4xl primary_black font-bold capitalize">
-              See Our{" "}
-              <span className="text-green-600">Get to know us better</span>
+              See Our <span className="brand-text">Get to know us better</span>
             </h3>
             <div className="flex">
-              <span className="w-[10%] border-b-2 border-green-600"></span>
-              <span className="w-[90%] border-b-2 border-green-100"></span>
+              <span className="w-[10%] border-b-2 border-[#469408]"></span>
+              <span className="w-[90%] border-b-2 border-[rgba(71,148,8,0.3)]"></span>
             </div>
           </div>
           <div>

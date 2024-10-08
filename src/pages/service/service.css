@@ -1,0 +1,10 @@
+.service-number {
+  position: absolute;
+  z-index: 0;
+  top: -35px;
+  font-family: "Poppins", sans-serif;
+  font-size: 300px;
+  color: #dde1eb;
+  line-height: normal;
+  opacity: 0.3;
+}
