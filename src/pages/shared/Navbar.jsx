@@ -51,7 +51,7 @@ const Navbar = () => {
     <div
       className={`transition ease-in-out duration-1000 ${
         isSticky
-          ? "bg-white shadow-lg fixed top-0 left-0 w-full  z-50"
+          ? "bg-white primary_black shadow-lg fixed top-0 left-0 w-full  z-50"
           : "transparent fixed top-0 left-0 w-full  z-50"
       }`}
     >
@@ -101,7 +101,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-green-600 bg-transparent"
-                      : "primary_black hover:text-green-600 transition ease-out duration-500 hover:bg-transparent"
+                      : "hover:text-green-600 transition ease-out duration-500 hover:bg-transparent"
                   }
                 >
                   {item.title}

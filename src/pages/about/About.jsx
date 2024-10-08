@@ -130,7 +130,7 @@ const About = () => {
                   debitis! Officiis voluptate corrupti quisquam sint nam!
                 </p>
                 <Link to={"#"}>
-                  <span className="uppercase text-xs text-white bg-green-600 font-medium inline-block cursor-pointer tracking-wider py-3 px-5 mt-5">
+                  <span className="uppercase text-xs text-white bg-green-600 font-medium inline-block cursor-pointer tracking-wider py-3 px-5">
                     Read more
                   </span>
                 </Link>
@@ -151,7 +151,7 @@ const About = () => {
                   debitis! Officiis voluptate corrupti quisquam sint nam!
                 </p>
                 <Link to={"#"}>
-                  <span className="uppercase text-xs text-white bg-green-600 font-medium inline-block cursor-pointer tracking-wider py-3 px-5 mt-5">
+                  <span className="uppercase text-xs text-white bg-green-600 font-medium inline-block cursor-pointer tracking-wider py-3 px-5">
                     Read more
                   </span>
                 </Link>
